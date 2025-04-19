@@ -1,0 +1,206 @@
+.faq {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chatbot-container-faq {
+    width: 375px; 
+    height: 100vh; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column; 
+    font-family: sans-serif; 
+    overflow: auto; 
+  }
+  
+  .chatbot-header {
+    display: flex;
+    align-items: center; 
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0; 
+    background-color: #fff; 
+  }
+  
+  .chatbot-header-arrow-icon {
+    margin-right: 10px;
+    font-size: 1.5em; 
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .chatbot-header-help-center {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333; 
+  }
+  
+  .faq-contents {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .faq-header {
+    background-color: #EDF0FF;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .faq-header-vertical-part {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .faq-icon {
+    margin-left: 40px;
+    align-self: center;
+  }
+  
+  .faq-header-text {
+    font-size: 16px;
+    display: flex;
+    padding: 15px 20px 0px 20px;
+    font-weight: bold;
+    color: #1B2F8F;
+  }
+  
+  .faq-subheader-text {
+    padding: 0px 20px 0px 20px;
+    color: #1B2F8F;
+    font-size: 12px;
+  }
+  
+  .problem-name {
+    color: rgb(76, 74, 74);
+    padding: 20px 20px 0px 20px;
+    font-weight: bold;
+    width: 80%;
+  }
+  
+  .faq-details {
+    margin: 20px 20px 0px 20px;
+    padding: 0px 15px 20px 15px;
+    font-size: 12px;
+    color: #555;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .email-support {
+    border-radius: 20px;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: #1B2F8F;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .faq-accordion {
+    margin: 20px 20px 0px 20px;
+    padding: 15px;
+    font-size: 12px;
+    color: #555;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .accordion-title {
+    color: #1B2F8F;
+    margin-bottom: 15px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .accordion-icon {
+    color: #1B2F8F;
+  }
+  
+  .accordion-content {
+    padding: 0 0 10px 0;
+    color: #555;
+  }
+  
+  .payment-form {
+    margin: 20px 20px 0px 20px;
+    padding: 15px;
+    font-size: 12px;
+    color: #555;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .form-title {
+    color: #1B2F8F;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-select, .form-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .form-select {
+    color: #87878a;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2387878a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-color: #ffffff;
+  }
+  
+  .form-textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #1B2F8F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
