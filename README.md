@@ -22,14 +22,14 @@ This application provides a chat interface designed to handle customer support q
 
 1.Download the zip file from github and extract it (Note: Do not clone repository, as it has large file that is not cloneable)
 
-#1a. Open a terminal of your choice 
+1a. Open a terminal of your choice 
 
 2. Navigate into the project directory if not in it already
 cd Chatbot-main
 
 3. Server Setup
 3a. Navigate to the server directory
-cd server
+d server
 
 3b. Install Node.js dependencies
 npm install
@@ -69,4 +69,5 @@ cd path/to/your/Chatbot-main/client
 
 6d. Start the Vite development server
 npm run dev
+
 Client should now be running, typically on  http://localhost:5173/. Access it through your browser of choice:)
