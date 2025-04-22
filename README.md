@@ -34,7 +34,7 @@ cd server
 3b. Install Node.js dependencies
 npm install
 
-#3c. Install transformers (in the same server directory)
+3c. Install transformers (in the same server directory)
 pip install torch transformers
 
 4. Client Setup
@@ -45,28 +45,28 @@ cd ../client
 4b. Install Node.js dependencies
 npm install
 
-#5. CORS setup
-#5a. Navigate into the main project directory cd Chatbot-main (cd..)
+5. CORS setup
+5a. Navigate into the main project directory cd Chatbot-main (cd..)
 
-#5b. Install cors package
+5b. Install cors package
 npm install cors --save
 
 –Setup is complete–
 
 ## Running the Chatbot App
 
-#6. Navigate to the server directory (if not already there)
+6. Navigate to the server directory (if not already there)
 cd path/to/your/Chatbot-main/server
 
-#6a. Start the Node.js server
+6a. Start the Node.js server
 node index.js
 Server should now be running, typically on port 3001
 
-#6b. Open a separate terminal, without closing the first one
+6b. Open a separate terminal, without closing the first one
 
-#6c. Navigate to the client directory from another terminal (if not already there)
+6c. Navigate to the client directory from another terminal (if not already there)
 cd path/to/your/Chatbot-main/client
 
-#6d. Start the Vite development server
+6d. Start the Vite development server
 npm run dev
 Client should now be running, typically on  http://localhost:5173/. Access it through your browser of choice:)
