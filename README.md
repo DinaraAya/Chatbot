@@ -1,5 +1,11 @@
 # ChatbotApp
 
+# !Booking references to test the status checking, cancellation and refund functionalities!
+DIA22345 - booking reference with status 'active' (elgibile for refund and cancellation)
+DIA12345 - booking reference with status 'active' (but not eligible for refund and cancellation)
+DIA54321 - booking reference with status 'cancelled' 
+
+
 ## Overview
 
 This application provides a chat interface designed to handle customer support queries, specifically related to booking management (status checks, cancellations, refunds) and issue reporting (payments, room/service complaints). It leverages a BERT model run via a Python script for understanding user intent from free-text input and provides specific flows and FAQ pages for common issues.
