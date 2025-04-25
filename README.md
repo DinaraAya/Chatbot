@@ -1,9 +1,9 @@
 # ChatbotApp
 
-# !Booking references to test the status checking, cancellation and refund functionalities!
-DIA22345 - booking reference with status 'active' (elgibile for refund and cancellation)
-DIA12345 - booking reference with status 'active' (but not eligible for refund and cancellation)
-DIA54321 - booking reference with status 'cancelled' 
+# Booking references to test the status checking, cancellation and refund functionalities
+* DIA22345 - booking reference with status 'active' (elgibile for refund and cancellation)
+* DIA12345 - booking reference with status 'active' (but not eligible for refund and cancellation)
+* DIA54321 - booking reference with status 'cancelled' 
 
 
 ## Overview
